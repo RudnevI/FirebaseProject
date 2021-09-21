@@ -31,4 +31,8 @@ class RemoteConfig {
                 }
             }
     }
+
+    fun getBoolean(key: String): Boolean {
+        return remoteConfig.getBoolean(key)
+    }
 }
